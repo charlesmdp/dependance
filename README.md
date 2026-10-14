@@ -5,6 +5,7 @@ Maquette 3D interactive de la grange (dépendance) après rénovation, refaite �
 Ce qu'on peut faire sur la page :
 
 - Vues Extérieur, Étage, RDC (maison de poupée, sans toit), hauteur de coupe réglable.
+- « Meubles entiers » : en vue RDC ou Étage, les murs sont coupés bas mais les meubles de l'étage restent entiers jusqu'à son plafond. « Toiture » enlève le toit, même sans coupe.
 - Visite à pied à hauteur d'yeux (ZQSD ou flèches, souris ; E ou clic pour ouvrir les portes, L pour la lumière de la pièce).
 - Allumer et éteindre les lumières pièce par pièce, ambiance Jour ou Soir.
 - Pompe à chaleur : chauffage, clim ou arrêt, split par split, avec les flux d'air visibles ou non.
