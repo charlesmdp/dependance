@@ -167,7 +167,7 @@ body.walking .panel { display: none; }
 <aside class="panel" id="panel">
   <button class="collapse" id="collapse" type="button" aria-expanded="true">Réduire</button>
   <header>
-    <div class="eyebrow">APS · PROJET DÉFINITIF · 14/09/2026</div>
+    <div class="eyebrow">APS · PROJET DÉFINITIF · 14/09/2026 · MAQUETTE V11</div>
     <h1>Grange du Moulin de Saint-Christophe</h1>
     <p class="sub">Rénovation de la grange en pierre, Elven, reconstruite à partir des plans au 1:50 et du devis de travaux.</p>
   </header>
@@ -967,7 +967,7 @@ body.walking .panel { display: none; }
   box(172, 374, 158, 162, 62, 71, M.mango); box(172, 374, 242, 246, 62, 71, M.mango);
   wall(163, 383, 152, 252, -100, 76, true);
   function chair(x, y, dir) {
-    const rot = { n: 0, s: Math.PI, w: Math.PI / 2, e: -Math.PI / 2 }[dir], g = new THREE.Group(); g.position.set(x, 0, y); g.rotation.y = rot; G.furn.add(g);
+    const rot = { n: 0, s: Math.PI, w: -Math.PI / 2, e: Math.PI / 2 }[dir], g = new THREE.Group(); g.position.set(x, 0, y); g.rotation.y = rot; G.furn.add(g);
     const b = (x0, x1, y0, y1, z0, z1, m, r) => box(x0, x1, y0, y1, z0, z1, m, g, r);
     b(-21, 21, -20, 21, 43, 47, M.straw, 1); b(-22, 22, -21, 22, 41, 43.5, M.oak, .5);
     [[-19, -18], [19, -18], [-19, 19], [19, 19]].forEach(([a, c]) => b(a - 1.6, a + 1.6, c - 1.6, c + 1.6, 0, 42, M.oak, .6));
