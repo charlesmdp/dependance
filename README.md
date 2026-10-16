@@ -14,7 +14,7 @@ Ce qu'on peut faire sur la page :
 
 Le bouton (i) en haut à droite liste ce qui vient des plans, ce qui vient du devis et ce qui est supposé.
 
-Le numéro de la version en ligne est écrit en haut du panneau (« Maquette V11 ») : s'il ne correspond pas à la dernière version, le site n'a pas été redéployé ou le navigateur garde l'ancienne page en cache.
+Le numéro de la version en ligne est écrit en haut du panneau (« Maquette V12 ») : s'il ne correspond pas à la dernière version, le site n'a pas été redéployé ou le navigateur garde l'ancienne page en cache.
 
 ## Fichiers
 
